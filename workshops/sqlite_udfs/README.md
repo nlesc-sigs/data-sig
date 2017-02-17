@@ -2,7 +2,7 @@
 SQLite allows new functionality to be added using the C/C++ interface, more information can be found at [SQLite Run-time Loadable Extensions](http://sqlite.org/loadext.html).
 
 ##UDF function
-An example of an extension with several functions can be found in funcs/nlesc_udfs.c to which an user can add more functions to SQLite.
+An example of an extension with several functions can be found in [funcs/nlesc_udfs.c](funcs/nlesc_udfs.c) to which an user can add more functions to SQLite.
 Functions in an extension are defined as follow:
 ```
 #Define the user's C function
@@ -58,7 +58,7 @@ i586-mingw32msvc-gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll
 To compile for Windows using MinGW, the command line is just like it is for unix except that the output file suffix is changed to ".dll" and the -fPIC argument is omitted.
 Note that dll created with this approach is slightly different from the one created using mingw in Linux. While the linux version works well when loaded directly on SQLite3 SQL interface, this one type of compilation is required when using SQLite from javascript. In this case, it is necessary to include the location where the binaries and sources are located.
 ```
-gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll -I../../../../Software/sqlite-autoconf-3160200
+gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll -I<path_to_sqlite_binaries_sources>/sqlite-autoconf-3160200
 ```
 
 ##Load and call the function from SQL
