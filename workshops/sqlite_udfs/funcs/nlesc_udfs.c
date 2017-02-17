@@ -7,7 +7,7 @@
 SQLITE_EXTENSION_INIT1
 #define BUILDING_DLL
 
-/*Xenon function to run queries*/
+/*Define the user's C function*/
 void example_run_query( const unsigned int query_id, const unsigned char* query)
 {
     char cmd[100];
@@ -15,6 +15,7 @@ void example_run_query( const unsigned int query_id, const unsigned char* query)
     system(cmd);
 }
 
+/*Define the C function to extend SQLite*/
 void example_query(sqlite3_context *context, int argc, sqlite3_value **argv)
 {
     assert( argc == 2);
@@ -23,7 +24,7 @@ void example_query(sqlite3_context *context, int argc, sqlite3_value **argv)
     example_run_query( query_id, query);
 }
 
-/*Add functions as extensions to SQLite*/
+/*Add extension to SQLite*/
 #ifdef _WIN32
 __declspec(dllexport)
 #endif
