@@ -52,7 +52,8 @@ Once you have compiled and installed sqlite3 using mingw the next step is to cre
 ```
 i586-mingw32msvc-gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll
 ```
-##Compilation on Windows for Windows
+
+###Compilation on Windows for Windows
 To compile for Windows using MinGW, the command line is just like it is for unix except that the output file suffix is changed to ".dll" and the -fPIC argument is omitted.
 Note that dll created with this approach is slightly different from the one created using mingw in Linux. While the linux version works well when loaded directly on SQLite3 SQL interface, this one type of compilation is required when using SQLite from javascript. In this case, it is necessary to include the location where the binaries and sources are located.
 ```
