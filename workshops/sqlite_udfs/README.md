@@ -5,11 +5,11 @@ SQLite allows new functionality to be added using the C/C++ interface, more info
 An example of an extension with several functions can be found in [funcs/nlesc_udfs.c](funcs/nlesc_udfs.c) to which an user can add more functions to SQLite.
 Functions in an extension are defined as follow:
 ```
-#Define the user's C function
+/*Define the user's C function*/
 
-#Define the C function to extend SQLite
+/*Define the C function to extend SQLite*/
 
-#Register the function
+/*Register the function*/
 
 ```
 
