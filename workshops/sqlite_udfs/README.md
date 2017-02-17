@@ -70,3 +70,10 @@ To call the function from SQL the user should do the following:
 #Simple call where a file will be created with a lit of text containing <query_id>:int and <query>:str.
 select example_query(<query_id>, <query>);
 ```
+
+#Other extensions
+Here you can find interesting extensions to SQLite3 which are not part of SQLite3 core functionality, to be used at your own risk.
+The one we think has more emphase for work done at the Netherlands eScience center is the extension for [Mathematical and string functions](funcs/extension-functions.c) retrieved from [SQLite3 web-site](https://www.sqlite.org/contrib).
+
+> "extension-functions.c (50.96 KB) contributed by Liam Healy on 2010-02-06 15:45:07
+> Provide mathematical and string extension functions for SQL queries using the loadable extensions mechanism. Math: acos, asin, atan, atn2, atan2, acosh, asinh, atanh, difference, degrees, radians, cos, sin, tan, cot, cosh, sinh, tanh, coth, exp, log, log10, power, sign, sqrt, square, ceil, floor, pi. String: replicate, charindex, leftstr, rightstr, ltrim, rtrim, trim, replace, reverse, proper, padl, padr, padc, strfilter. Aggregate: stdev, variance, mode, median, lower_quartile, upper_quartile."
