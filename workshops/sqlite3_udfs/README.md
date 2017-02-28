@@ -9,7 +9,7 @@ Functions in an extension are defined as follow:
 
 [/\*Define the C function to extend SQLite\*/](funcs/nlesc_udfs.c#L18)
 
-The extension's functions are registered by SQLite3 function **sqlite3_\<name_of_the_extension\>_init**. For **nlesc_udfs** extension the functions is:
+The extension's functions are registered by SQLite3 function **sqlite3_\<name_of_the_extension\>_init**. For **nlesc_udfs** extension the function name is:
 [sqlite3_nlesc_udfs_init](funcs/nlesc_udfs.c#L32)
 
 It is within this function our **example_query** [is registered](funcs/nlesc_udfs.c#L40).
