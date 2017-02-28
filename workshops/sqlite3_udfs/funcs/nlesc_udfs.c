@@ -11,7 +11,7 @@ SQLITE_EXTENSION_INIT1
 void example_run_query( const unsigned int query_id, const unsigned char* query)
 {
     char cmd[100];
-    sprintf(cmd, "echo \"%d %s\" >> xenon.out", query_id, query);
+    sprintf(cmd, "echo \"%d %s\" >> queries.out", query_id, query);
     system(cmd);
 }
 
@@ -29,7 +29,7 @@ void example_query(sqlite3_context *context, int argc, sqlite3_value **argv)
 __declspec(dllexport)
 #endif
 
-int sqlite3_nlesc_udfs_init(
+int sqlite3_nlescudfs_init(
     sqlite3 *db, 
     char **pzErrMsg,
     const sqlite3_api_routines *pApi
