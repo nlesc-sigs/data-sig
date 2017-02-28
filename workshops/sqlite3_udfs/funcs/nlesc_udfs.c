@@ -11,7 +11,7 @@ SQLITE_EXTENSION_INIT1
 void example_run_query( const unsigned int query_id, const unsigned char* query)
 {
     char cmd[100];
-    sprintf(cmd, "echo \"%d %s\" >> queries.out", query_id, query);
+    sprintf(cmd, "echo \"%d %s\" >> queries.txt", query_id, query);
     system(cmd);
 }
 
