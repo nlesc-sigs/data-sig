@@ -141,6 +141,7 @@ SQLITE_EXTENSION_INIT1
 #define _MAP_H_
 
 #include <stdint.h>
+#include <inttypes.h>
 
 /*
 ** Simple binary tree implementation to use in median, mode and quartile calculations
@@ -1942,6 +1943,6 @@ int double_cmp(const void *a, const void *b){
 
 void print_elem(void *e, int64_t c, void* p){
   int ee = *(int*)(e);
-  printf("%d => %lld\n", ee,c);
+  printf("%d => %" PRId64 "\n", ee,c);
 }
 

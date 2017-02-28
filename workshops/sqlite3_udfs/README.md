@@ -92,3 +92,22 @@ Here you can find interesting extensions to SQLite3 which are not part of SQLite
 
 > "extension-functions.c (50.96 KB) contributed by Liam Healy on 2010-02-06 15:45:07
 > Provide mathematical and string extension functions for SQL queries using the loadable extensions mechanism. Math: acos, asin, atan, atn2, atan2, acosh, asinh, atanh, difference, degrees, radians, cos, sin, tan, cot, cosh, sinh, tanh, coth, exp, log, log10, power, sign, sqrt, square, ceil, floor, pi. String: replicate, charindex, leftstr, rightstr, ltrim, rtrim, trim, replace, reverse, proper, padl, padr, padc, strfilter. Aggregate: stdev, variance, mode, median, lower_quartile, upper_quartile."
+
+For **LL** compilation you should do the following:
+```
+#-lm option needs to be in the end otherwise you get: 
+#Error: /usr/local/lib/libsqlitefunctions.so: undefined symbol: sinh
+gcc -fPIC -shared extension-functions.c -o libextensionfunctions.so -lm
+```
+
+For **LW** compilation you should do the following: 
+```
+i586-mingw32msvc-gcc -g -shared extension-functions.c -o libextensionfunctions.dll
+```
+
+To load the module and test it you should do the following:
+```
+.load './libextensionfunctions'
+
+select cos(pi()/4.0);
+```
