@@ -29,22 +29,21 @@ int sqlite3_create_function(
 ##Compilation
 It is required to have SQLite 3.0 installed and access to the **sqlite3_ext** header file, sqlite3 header file only is not enough.
 
-###Compilation on Linux for Linux.
+###Compilation on Linux for Linux (LL version).
 For Linux we need to create a **.so** file. To create such file run the following command:
 ```
 gcc -lm -fPIC -DSQLITE_CORE -shared nlesc_udfs.c -o libnlescudfs.so
 ```
 
-###Compilation on Linux for windows.
+###Compilation on Linux for windows (LW version).
 For windows we need to create a .ddl file. To create such file run the following command:
 ```
 gcc -lm -fPIC -DSQLITE_CORE -shared nlesc_udfs.c -o libnlescudfs.so
 ```
 
-For windows we need to create a **.dll** file. To create such file in Linux to then be used in Windows you need to compile the library using mingw (32 and 64 bist windows).
-We have tested using Ubuntu for compilation and Windows 7 for execution.
+For windows we need to create a **.dll** file. To create such file in Linux, to then be used in Windows, you need to compile the library using mingw (32 and 64 bist windows).
 
-Installation of mingw on Ubuntu:
+We have tested it using Ubuntu 14.4 for compilation and Windows 7 for execution. Installation of mingw on Ubuntu:
 ```
 sudo apt-get install mingw64 mingw64-binutils mingw64-runtime
 ```
@@ -66,14 +65,15 @@ Once you have compiled and installed sqlite3 using mingw the next step is to cre
 i586-mingw32msvc-gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll
 ```
 
-###Compilation on Windows for Windows
-To compile for Windows using MinGW, the command line is just like it is for unix except that the output file suffix is changed to **.dll** and the **-fPIC** argument is omitted.
-Note that dll created with this approach is slightly different from the one created using mingw in Linux. While the linux version works well when loaded directly on SQLite3 SQL interface, this one type of compilation is required when using SQLite from javascript. In this case, it is necessary to include the location where the binaries and sources are located.
+###Compilation on Windows for Windows (WW version)
+To compile for Windows using MinGW, the command line is just like the **LL** compilation except that the output file suffix is changed to **.dll** and the **-fPIC** argument is omitted. Furthermore, it is necessary to include the location where the binaries and sources are located.
 ```
 gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll -I<path_to_sqlite_binaries_sources>/sqlite-autoconf-3160200
 ```
 
-##Load extension and call a function from SQL
+Note that **dll** created with **WW** version is slightly different from the **LW**. While **LW** version works well on SQLite3 SQL for windows, the **WW** was required for SQLite3 embedded in javascript.
+
+##Load extension and call one of its functions from SQL
 
 To load an extension the user should do the following:
 ```
@@ -81,9 +81,9 @@ To load an extension the user should do the following:
 .load '<path_to_module.[so|dll]>/libnlescudfs
 ```
 
-To call the function from SQL the user should do the following:
+To call one of its functions from SQL the user should do the following:
 ```
-#Simple call where a file will be created with a lit of text containing <query_id>:int and <query>:str.
+#Simple call which will create a file with a line of text containing <query_id>:int and <query>:str. The file will be located at the same directory where SQLite3 SQL was initialized.
 select example_query(<query_id>, <query>);
 ```
 
