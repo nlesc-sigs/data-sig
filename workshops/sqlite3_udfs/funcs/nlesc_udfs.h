@@ -1,12 +1,12 @@
-#ifndef NLESC_UDFS_DLL_H
-#define NLESC_UDFS_DLL_H
+#ifndef NLESCUDFS_DLL_H
+#define NLESCUDFS_DLL_H
 
 #ifdef BUILDING_NLESC_UDFS_DLL
-#define NLESC_UDFS_DLL __declspec(dllexport)
+#define NLESCUDFS_DLL __declspec(dllexport)
 #else
-#define NLESC_UDFS_DLL __declspec(dllimport)
+#define NLESCUDFS_DLL __declspec(dllimport)
 #endif
 
-int __stdcall SQLITE_NLESC_UDFS_DLL sqlite3_nlesc_udfs_init(sqlite3 *db, char **pzErrMsg, const sqlite3_api_routines *pApi);
+int __stdcall SQLITE_NLESCUDFS_DLL sqlite3_nlescudfs_init(sqlite3 *db, char **pzErrMsg, const sqlite3_api_routines *pApi);
 
 #endif  // EXAMPLE_DLL_H
