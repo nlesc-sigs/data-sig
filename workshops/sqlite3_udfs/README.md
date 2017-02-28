@@ -11,11 +11,23 @@ Functions in an extension are defined as follow:
 
 The extension's functions are registered by SQLite3 function **sqlite3_\<name_of_the_extension\>_init**. For **nlesc_udfs** extension the function name is:
 [sqlite3_nlesc_udfs_init](funcs/nlesc_udfs.c#L32)
+```
+int sqlite3_create_function(
+  sqlite3 *db,
+  const char *zFunctionName,
+  int nArg,
+  int eTextRep,
+  void *pApp,
+  void (*xFunc)(sqlite3_context*,int,sqlite3_value**),
+  void (*xStep)(sqlite3_context*,int,sqlite3_value**),
+  void (*xFinal)(sqlite3_context*)
+);
+```
 
 It is within this function our **example_query** [is registered](funcs/nlesc_udfs.c#L40).
 
 ##Compilation
-It is required to have SQLite 3.0 installed and access to the **sqlite3_ext** header file, sqlite3 header file is not enough.
+It is required to have SQLite 3.0 installed and access to the **sqlite3_ext** header file, sqlite3 header file only is not enough.
 
 ###Compilation on Linux for Linux.
 For Linux we need to create a **.so** file. To create such file run the following command:
