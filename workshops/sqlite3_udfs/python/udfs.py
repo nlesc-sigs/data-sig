@@ -13,13 +13,13 @@ def log(value, base):
         
 class Stdev: # sample standard deviation (aggregate function)
     def __init__(self):
-        self.vec = []
+        self.arr = []
 
     def step(self, value):
-        self.vec.append(value)
+        self.arr.append(value)
 
     def finalize(self):
-        return np.array(self.vec).std(ddof=1)
+        return np.std(np.array(self.arr), ddof=1)
 
 class Median: # median (aggregate function)
     def __init__(self):
@@ -29,6 +29,7 @@ class Median: # median (aggregate function)
         self.arr.append(value)
 
     def finalize(self):
+        #return np.median(np.array(self.arr))
         return np.median(np.array(self.arr))
 
 class Mad: # median absolute deviation (aggregate function)
@@ -52,14 +53,18 @@ with sqlt.connect(dbfile) as conn:
    cur = conn.cursor()
    sql_stmt = """
       SELECT
+         COUNT(*) AS n,
+         ROUND(MIN(LOG(abundance, 10)), 4) AS min,
+         ROUND(MAX(LOG(abundance, 10)), 4) AS max,
          ROUND(AVG(LOG(abundance, 10)), 4) AS mean,
-         ROUND(STDEV(LOG(abundance, 10)), 4) AS stdev,
          ROUND(MEDIAN(LOG(abundance, 10)), 4) AS median,
+         ROUND(STDEV(LOG(abundance, 10)), 4) AS stdev,
          ROUND(MAD(LOG(abundance, 10)), 4) AS mad
       FROM
          PROTEIN
    """
 
    cur.execute(sql_stmt)
-   for row in cur.fetchall():
-      print(row)
+   row = cur.fetchone()
+   for k in row.keys():
+      print("%s:\t%s" % (k, str(row[k])))
