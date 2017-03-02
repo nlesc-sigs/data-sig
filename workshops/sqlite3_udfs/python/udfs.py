@@ -29,7 +29,6 @@ class Median: # median (aggregate function)
         self.arr.append(value)
 
     def finalize(self):
-        #return np.median(np.array(self.arr))
         return np.median(np.array(self.arr))
 
 class Mad: # median absolute deviation (aggregate function)
