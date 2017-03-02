@@ -36,11 +36,6 @@ gcc -lm -fPIC -DSQLITE_CORE -shared nlesc_udfs.c -o libnlescudfs.so
 ```
 
 ###Compilation on Linux for windows (LW version).
-For windows we need to create a .ddl file. To create such file run the following command:
-```
-gcc -lm -fPIC -DSQLITE_CORE -shared nlesc_udfs.c -o libnlescudfs.so
-```
-
 For windows we need to create a **.dll** file. To create such file in Linux, to then be used in Windows, you need to compile the library using mingw (32 and 64 bist windows).
 
 We have tested it using Ubuntu 14.4 for compilation and Windows 7 for execution. Installation of mingw on Ubuntu:
@@ -95,12 +90,12 @@ Here you can find interesting extensions to SQLite3 which are not part of SQLite
 
 For **LL** compilation you should do the following:
 ```
-#-lm option needs to be in the end otherwise you get: 
+#-lm option needs to be in the end otherwise you get:
 #Error: /usr/local/lib/libsqlitefunctions.so: undefined symbol: sinh
 gcc -fPIC -shared extension-functions.c -o libextensionfunctions.so -lm
 ```
 
-For **LW** compilation you should do the following: 
+For **LW** compilation you should do the following:
 ```
 i586-mingw32msvc-gcc -g -shared extension-functions.c -o libextensionfunctions.dll
 ```
