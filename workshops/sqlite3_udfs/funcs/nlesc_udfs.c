@@ -2,9 +2,16 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "sqlite3ext.h"
 
+#define COMPILE_SQLITE_EXTENSIONS_AS_LOADABLE_MODULE 1
+#ifdef COMPILE_SQLITE_EXTENSIONS_AS_LOADABLE_MODULE
+#include "sqlite3ext.h"
 SQLITE_EXTENSION_INIT1
+#else
+#include "sqlite3.h"
+#endif
+
+
 #define BUILDING_DLL
 
 /*Define the user's C function*/
@@ -29,6 +36,7 @@ void example_query(sqlite3_context *context, int argc, sqlite3_value **argv)
 __declspec(dllexport)
 #endif
 
+#ifdef COMPILE_SQLITE_EXTENSIONS_AS_LOADABLE_MODULE
 int sqlite3_nlescudfs_init(
     sqlite3 *db, 
     char **pzErrMsg,
@@ -42,3 +50,5 @@ int sqlite3_nlescudfs_init(
 
     return rc;
 }
+#endif /* COMPILE_SQLITE_EXTENSIONS_AS_LOADABLE_MODULE */
+

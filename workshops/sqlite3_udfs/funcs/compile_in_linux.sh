@@ -1,4 +1,4 @@
-gcc -lm -fPIC -DSQLITE_CORE -shared nlesc_udfs.c -o libnlescudfs.so
+gcc -fPIC -shared nlesc_udfs.c -o libnlescudfs.so -lm
 
 #You must have installed mingw
 i586-mingw32msvc-gcc -g -shared nlesc_udfs.c -o libnlescudfs.dll
