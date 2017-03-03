@@ -32,7 +32,7 @@ It is required to have SQLite 3.0 installed and access to the **sqlite3_ext** he
 ###Compilation on Linux for Linux (LL version).
 For Linux we need to create a **.so** file. To create such file run the following command:
 ```
-gcc -lm -fPIC -DSQLITE_CORE -shared nlesc_udfs.c -o libnlescudfs.so
+gcc -lm -fPIC -shared nlesc_udfs.c -o libnlescudfs.so
 ```
 
 ###Compilation on Linux for windows (LW version).
