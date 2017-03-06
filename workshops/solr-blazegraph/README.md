@@ -20,6 +20,8 @@ Then load the data into solr:
 
 `curl --header "Content-Type: text/xml" --data-binary @data/caselaw.xml http://localhost:8983/solr/hogeraad/update`
 
+(Open question: This doesn't always work. If I manually load a file through the api, they are suddenly all loaded).
+
 It has now loaded 10 documents into solr. Let's try out a query:
 
 `http://localhost:8983/solr/hogeraad/select?q=content:turkse&wt=json`
@@ -40,10 +42,10 @@ In the browser, go to `localhost:9999/blazegraph/#query`. Here we can run sparql
 Have a look at the properties file for blazegraph, `blazegraph/RWStore.properties`. As you can see, it contains the property `com.bigdata.rdf.store.AbstractTripleStore.textIndex=true`. This is not the default option! It means that we can do a text search on the fields that we have:
 
 ```
-prefix bds: <http://www.bigdata.com/rdf/search#>
+PREFIX bds: <http://www.bigdata.com/rdf/search#>
 
-select ?s ?p ?o ?score ?rank
-where {
+SELECT ?s ?p ?o ?score ?rank
+WHERE {
   ?o bds:search "turkse" .
   ?o bds:matchAllTerms "true" .
   ?o bds:relevance ?score .
@@ -65,7 +67,7 @@ SELECT ?res WHERE {
 
 Note that the external search returns (default) the id, which we can use to select triples in blazegraph:
 ```
-prefix dcterm: <http://purl.org/dc/terms/>
+PREFIX dcterm: <http://purl.org/dc/terms/>
 PREFIX fts: <http://www.bigdata.com/rdf/fts#>
 
 SELECT ?id ?date ?title WHERE {
@@ -73,6 +75,6 @@ SELECT ?id ?date ?title WHERE {
   ?id dcterm:date ?date.
   ?res fts:search "content:turkse" .
   ?res fts:endpoint "http://localhost:8983/solr/hogeraad/select" .
-  BIND(URI(CONCAT("http://deeplink.rechtspraak.nl/uitspraak?id=", ?res)) as ?id)
+  BIND(URI(?res) as ?id)
 }
 ```
