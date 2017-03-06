@@ -1,0 +1,25 @@
+@prefix bwb: <bwb-dl> .
+@prefix cvdr: <http://decentrale.regelgeving.overheid.nl/cvdr/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ecli: <https://e-justice.europa.eu/ecli> .
+@prefix eu: <http://publications.europa.eu/celex/> .
+@prefix psi: <http://psi.rechtspraak.nl/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tr: <http://tuchtrecht.overheid.nl/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:1992:AA3047> dcterms:abstract "-" ;
+    dcterms:creator <http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden> ;
+    dcterms:date "1992-10-07"^^xsd:date ;
+    dcterms:description """
+         gewezen op het beroep in cassatie van de vennootschap onder firma X te Z tegen de uitspraak van het Gerechtshof te Amsterdam van 23 augustus 1991 betreffende na te melden naheffingsaanslag in de omzetbelasting.  1. Aanslag, bezwaar en geding voor het Hof. Aan belanghebbende is over het tijdvak 5 juli 1988 tot en met 31 mei 1989 een naheffingsaanslag in de omzetbelasting opgelegd ten bedrage van ƒ 97.280,-- aan enkelvoudige belasting en ƒ 97.280,-- aan verhoging, welke aanslag, na daartegen gemaakt bezwaar, bij uitspraak van de Inspecteur is gehandhaafd, met het besluit geen kwijtschelding van de verhoging te verlenen. Belanghebbende is tegen die uitspraak en dat besluit in beroep gekomen bij het Hof, dat die uitspraak heeft bevestigd, het besluit heeft vernietigd en volledige kwijtschelding van de verhoging heeft verleend.  2. Geding in cassatie. Belanghebbende heeft tegen 's Hofs uitspraak beroep in cassatie ingesteld en daarbij een middel voorgesteld. De Staatssecretaris van Financiën heeft bij vertoogschrift het cassatieberoep betreden.  3. Beoordeling van het middel. Het Hof heeft voor zijn beslissing omtrent de vraag of belanghebbende over een aanmerkelijk deel van de omzet geen omzetbelasting heeft voldaan, waarde toegekend aan het door de Inspecteur eerst ter zitting overgelegde proces-verbaal (met ontvangstlijsten en bonnetjes). Gelijk het middel met juistheid aanvoert, had het Hof, nu belanghebbende - zoals in de weergave van haar standpunt in 's Hofs uitspraak ligt besloten - ertegen bezwaar maakte dat zij deze stukken voor het eerst ter zitting zag, overeenkomstig het arrest van de Hoge Raad van 18 september 1985, BNB 1985/303, hetzij de behandeling van de zaak behoren te schorsen ten einde haar de gelegenheid te geven zich over de inhoud van die stukken te beraden en haar standpunt daaromtrent te bepalen, hetzij zich ervan te vergewissen dat belanghebbende voor de bepaling van haar standpunt aan zodanige schorsing geen behoefte had. Aangezien uit 's Hofs uitspraak niet blijkt dat het een of het ander heeft plaatsgevonden, kan 's Hofs uitspraak niet in stand blijven. Verwijzing moet volgen. Het middel behoeft voor het overige geen behandeling. Door het verwijzingshof zal, naar aanleiding van het alsnog te verrichten feitenonderzoek, mede opnieuw moeten worden beoordeeld of grond aanwezig is voor toepassing van artikel 36 van de Wet op de omzetbelasting 1968 in verbinding met artikel 29, lid 1, van de Algemene wet inzake rijksbelastingen.  4. Beslissing. De Hoge Raad vernietigt de uitspraak van het Hof, verwijst het geding naar het Gerechtshof te 's-Gravenhage ter verdere behandeling en beslissing van de zaak in meervoudige kamer met inachtneming van dit arrest, en gelast dat door de Staatssecretaris van Financiën aan belanghebbende wordt vergoed het door deze voor de behandeling van het beroep in cassatie gestorte griffierecht ten bedrage van ƒ 300,--, alsmede het ter zake van de vervanging van de mondelinge uitspraak bij het Hof gestorte bedrag van ƒ 150,--, derhalve in totaal ƒ 450,--.  Dit arrest is gewezen door de raadsheer Van der Linde als voorzitter, en de raadsheren Bellaart en C.H.M. Jansen in tegenwoordigheid van de waarnemend griffier Van Hooff, in raadkamer van 7 oktober 1992.""" ;
+    dcterms:hasVersion "BNB 1995/57",
+        "FED 1995/107",
+        "Rechtspraak.nl",
+        "V-N 1995/663, 24 met annotatie van Kluwer" ;
+    dcterms:subject <http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht> ;
+    dcterms:title "ECLI:NL:HR:1992:AA3047 Hoge Raad , 07-10-1992 / 28501" ;
+    dcterms:type psi:uitspraak .
+
