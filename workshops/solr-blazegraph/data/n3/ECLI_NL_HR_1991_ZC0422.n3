@@ -1,0 +1,46 @@
+@prefix bwb: <bwb-dl> .
+@prefix cvdr: <http://decentrale.regelgeving.overheid.nl/cvdr/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ecli: <https://e-justice.europa.eu/ecli> .
+@prefix eu: <http://publications.europa.eu/celex/> .
+@prefix psi: <http://psi.rechtspraak.nl/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tr: <http://tuchtrecht.overheid.nl/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:1991:ZC0422> dcterms:abstract "-" ;
+    dcterms:creator <http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden> ;
+    dcterms:date "1991-11-22"^^xsd:date ;
+    dcterms:description """
+         22 november 1991 Eerste Kamer Nr. 14.367 AS 
+           Hoge Raad der Nederlanden 
+           Arrest in de zaak van: 
+           DE STAAT DER NEDERLANDEN (Ministerie van Justitie), waarvan de zetel is gevestigd te ‘s-Gravenhage, EISER tot cassatie, advocaat: Mr. J.L. de Wijkerslooth, 
+           tegen 
+           [verweerder], notaris, wonende te [woonplaats], VERWEERDER in cassatie, advocaat: Mr. H.P. Utermark. 
+         
+           1 
+           Verweerder in cassatie - verder te noemen [verweerder] - heeft bij exploot van 18 oktober 1988, voor zover in cassatie van belang, eiser tot cassatie - verder te noemen de Staat - in kort geding gedagvaard voor de President van de Rechtbank te Almelo en gevorderd - kort gezegd - de Staat te verbieden huiszoeking bij hem te (laten) verrichten en zonder zijn toestemming zijn kantoor te betreden, totdat bij onherroepelijke rechterlijke uitspraak zal zijn beslist over de vraag of deze huiszoeking kan geschieden zonder schending van zijn beroepsgeheim. Nadat de Staat tegen de vordering verweer had gevoerd, heeft de President bij vonnis van 21 oktober 1988 de vordering afgewezen. Tegen dit vonnis heeft [verweerder] hoger beroep ingesteld bij het Gerechtshof te Arnhem, waarna de Staat incidenteel hoger beroep heeft ingesteld. Bij arrest van 2 januari 1990 heeft het Hof in het principaal appel het vonnis waarvan beroep, met wijziging van gronden, behalve ten aanzien van de kostenveroordeling bekrachtigd en in het incidenteel appel de vordering van de Staat afgewezen. Het arrest van het Hof is aan dit arrest gehecht. 
+         
+           2 
+           Tegen het arrest van het Hof heeft de Staat beroep in cassatie ingesteld. De cassatiedagvaarding is aan dit arrest gehecht en maakt daarvan deel uit. [verweerder] heeft geconcludeerd tot verwerping van het beroep. De zaak is voor partijen toegelicht door hun advocaten en voor [verweerder] mede door Mr. J.Th.A. de Keijzer, advocaat bij de Hoge Raad der Nederlanden. De conclusie van de Advocaat-Generaal Biegman-Hartogh strekt tot verwerping van het beroep. 
+         
+           3 
+           3.1 In cassatie moet van het volgende worden uitgegaan. - Tijdens een gerechtelijk vooronderzoek te Leeuwarden is bij de verdachte een depôt-bewijs aangetroffen waarin [verweerder], die notaris is, aan de verdachte bevestigt van hem een enveloppe met inhoud in bewaring te hebben genomen. - De Rechter-Commissaris in strafzaken bij de Rechtbank te Leeuwarden heeft [verweerder] bevolen deze enveloppe ter inbeslagneming aan hem uit te leveren. [verweerder] heeft dit geweigerd met een beroep op zijn verschoningsrecht. - Daarop heeft de Rechtbank te Leeuwarden op de voet van art. 111 Sv. op verzoek van de Rechter-Commissaris verlof tot huiszoeking ter inbeslagneming van die enveloppe verleend en op de voet van art. 112 lid 3 de Rechter-Commissaris te Almelo opdracht gegeven tot uitvoering daarvan over te gaan. [verweerder] heeft vervolgens in kort geding de hiervoor onder 1 vermelde vordering ingesteld. De President heeft de vordering afgewezen. Het Hof heeft geoordeeld dat huiszoeking bij [verweerder] ter inbeslagneming van de enveloppe met inhoud in het onderhavige geval niet was toegestaan en dat de President de desbetreffende vordering van [verweerder] had dienen toe te wijzen. Niettemin heeft het Hof het vonnis van de President, voor zover thans van belang, bekrachtigd, omdat [verweerder] inmiddels geen belang meer had bij enige voorziening als gevorderd. 
+           3.2 In zijn rechtsoverweging 18 heeft het Hof als vaststaand aangenomen dat de voorgenomen huiszoeking bij [verweerder] uitsluitend inbeslagneming beoogde van brieven of geschriften die het voorwerp van het strafbaar feit uitmaken of tot het begaan daarvan gediend hebben. Het middel stelt de vraag aan de orde of het beroepsgeheim van de notaris, waarop [verweerder] zich heeft beroepen ter motivering van zijn weigering aan de last van de Rechter-Commissaris te voldoen, ook evenbedoelde brieven en geschriften omvat. Bij de beoordeling hiervan dient het volgende uitgangspunt te zijn. 
+           3.3 
+             Art. 98 lid 2 Sv., welke bepaling ingevolge art. 113 lid 2 ook van toepassing is in geval van een huiszoeking ter inbeslagneming, moet, voor zover thans van belang, aldus worden verstaan dat huiszoeking ter inbeslagneming bij personen met bevoegdheid tot verschoning, ook zonder hun toestemming, mag plaats vinden wanneer zij is gericht op brieven en geschriften die voorwerp van het strafbare feit uitmaken of tot het begaan daarvan gediend hebben, nu dergelijke brieven en geschriften geen object zijn van de aan evenbedoelde personen toekomende bevoegdheid tot verschoning (HR 26 juni 1988, NJ 1989, 213 en HR 1mei 1990, NJ 1991, 40). De aard van de hier aan de orde zijnde bevoegdheid tot verschoning brengt echter mede dat het oordeel omtrent de vraag of brieven of geschriften object van de bevoegdheid tot verschoning uitmaken, in beginsel toekomt aan de tot verschoning bevoegde persoon. Wanneer deze zich op het standpunt stelt dat het gaat om brieven of geschriften die noch voorwerp van het strafbare feit uitmaken noch tot het begaan daarvan gediend hebben en waarvan kennisneming zou leiden tot schending van het beroepsgeheim, dient dit standpunt door de organen van politie en justitie te worden geëerbiedigd, tenzij redelijkerwijze geen twijfel er over kan bestaan dat dit standpunt onjuist is. Zulks strookt met de maatstaf die is aanvaard voor het geval een verschoningsgerechtigde zich ten overstaan van de rechter van het afleggen van getuigenis verschoont (HR 1 maart 1985, NJ 1986, 173, rov. 3.5). 
+           3.4 In hetgeen het Hof in de rov. 19-25 heeft overwogen ligt besloten dat [verweerder] zich op het standpunt heeft gesteld dat het hier niet gaat om brieven of geschriften die voorwerp van het strafbare feit uitmaken of tot het begaan daarvan hebben gediend, en dat naar ‘s Hofs oordeel zich ook niet de situatie voordoet dat er redelijkerwijze geen twijfel over kan bestaan dat dit standpunt onjuist is. Hieruit vloeit voort dat er voor een nader onderzoek door het Hof als in onderdeel 2 bedoeld geen plaats was, zodat dit onderdeel faalt. Hieruit vloeit verder voort dat het Hof in elk geval met juistheid heeft geoordeeld dat huiszoeking bij [verweerder] ter inbeslagneming van de enveloppe met inhoud in het onderhavige geval niet was toegestaan, zodat ook onderdeel 1 - ook als het Hof zou zijn uitgegaan van een andere opvatting dan hiervoor in 3.3 juist is bevonden - niet tot cassatie kan leiden. 
+         
+           4 
+           De Hoge Raad: verwerpt het beroep; veroordeelt de Staat in de kosten van het geding in cassatie, tot op deze uitspraak aan de zijde van [verweerder] begroot op f 456,30 aan verschotten en f 2.500,-- voor salaris. 
+           Dit arrest is gewezen door vice-president Martens als voorzitter en de raadsheren Bloembergen, Haak, Roelvink en Heemskerk, en in het openbaar uitgesproken door de raadsheer Hermans op  22 november 1991""" ;
+    dcterms:hasVersion "NJ 1992, 315 met annotatie van E.A. Alkema, Th.W. van Veen",
+        "Rechtspraak.nl",
+        "RvdW 1991, 266" ;
+    dcterms:subject <http://psi.rechtspraak.nl/rechtsgebied#civielRecht> ;
+    dcterms:title "ECLI:NL:HR:1991:ZC0422 Hoge Raad , 22-11-1991 / 14367" ;
+    dcterms:type psi:uitspraak .
+

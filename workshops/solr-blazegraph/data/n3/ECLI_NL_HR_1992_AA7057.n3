@@ -1,0 +1,40 @@
+@prefix bwb: <bwb-dl> .
+@prefix cvdr: <http://decentrale.regelgeving.overheid.nl/cvdr/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ecli: <https://e-justice.europa.eu/ecli> .
+@prefix eu: <http://publications.europa.eu/celex/> .
+@prefix psi: <http://psi.rechtspraak.nl/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tr: <http://tuchtrecht.overheid.nl/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:1992:AA7057> dcterms:abstract "-" ;
+    dcterms:creator <http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden> ;
+    dcterms:date "1992-09-09"^^xsd:date ;
+    dcterms:description """28414 Gewezen op het beroep in cassatie van X te Z tegen de uitspraak van het Gerechtshof te 's-Gravenhage van 26 juni 1991 betreffende na te melden naheffingsaanslag in de omzetbelasting.    1.	Aanslag, bezwaar en geding voor het Hof.  
+         Aan belanghebbende is over het tijdvak 1 januari 1983 tot en met 31 december 1986 een naheffingsaanslag in de omzetbelasting opgelegd ten bedrage van f 45.798,--, zonder verhoging, welke aanslag, na daartegen gemaakt bezwaar, bij uitspraak van de Inspecteur is gehandhaafd.  Belanghebbende is tegen de uitspraak van de Inspecteur in beroep gekomen bij het Hof, dat de uitspraak van de Inspecteur heeft bevestigd.  De uitspraak van het Hof is aan dit arrest gehecht.    2.	Geding in cassatie.  
+         Belanghebbende heeft tegen 's Hofs uitspraak beroep in cassatie ingesteld. Het beroepschrift in cassatie in aan dit arrest gehecht en maakt daarvan deel uit.  De Staatssecretaris van Financiën heeft bij vertoogschrift het cassatieberoep bestreden.    3.	Beoordeling van het middel.  
+         3.1.	In cassatie kan van het volgende worden uitgegaan:  Belanghebbende, een watersportvereniging, exploiteert een van de gemeente P (hierna: de gemeente) gehuurde jachthaven in Z en is als zodanig ondernemer in de zin van de Wet op de omzetbelasting 1968 (hierna: de Wet). Door het Ministerie van Cultuur, Recreatie en Maatschappelijk werk is aan de gemeente in het kader van de uitvoering van het beleid inzake openluchtrecreatie ten algemenen nutte in 1981 onder voorwaarden een subsidie van f 300.235,-- toegekend ten einde in de onderwerpelijke jachthaven een aantal passantenplaatsen te reserveren en gedurende minstens twintig jaar te garanderen.  Op 1 december 1981 sloten Burgemeester en Wethouders van de gemeente, uitvoering gevend aan het hierboven bedoelde beleid, in aanvulling op de tussen partijen bestaande huurovereenkomst, met belanghebbende een overeenkomst, waarin is bepaald dat de watersportvereniging zich verplicht het passantengedeelte van de jachthaven te Z op een juiste wijze ten genoege van Burgemeester en Wethouders te beheren.   
+         3.2. Het Hof heeft uitgaande van die overeenkomst overwogen dat de daaruit voor belanghebbende voortvloeiende verplichting onder meer behelst het gedurende twintig jaar beschikbaar houden van een passantensteiger in haar jachthaven alsmede het verschaffen aan passanten van het recht gebruik te maken van de aldaar aanwezige voorzieningen en het verschaffen aan de gemeente van een vetorecht omtrent de hoogte van de passantentarieven. Hierop heeft het Hof zijn oordeel gegrond dat belanghebbende op zich heeft genomen jegens de gemeente een voor de Wet relevante prestatie te verrichten, niet zijnde een levering van goederen, welke prestatie, gelet op karakter en tijdsduur, als een doorlopende dienst moet worden aangemerkt.  
+         3.3. Het middel strekt ten betoge dat belanghebbende door te voldoen aan de in het normale patroon van publiekrechtelijke subsidiëring gestelde voorwaarden niet een prestatie in het economische verkeer heeft verricht.  Het middel faalt echter, daar 's Hofs oordeel niet blijk geeft van een onjuiste opvatting van artikel 4 van de Wet en voor het overige in cassatie niet met vrucht kan worden bestreden, omdat het berust op de aan het Hof voorbehouden uitlegging van de op 1 december 1981 tussen belanghebbende en de gemeente gesloten overeenkomst.  3.4.  De klacht dat het Hof niet is ingegaan op de in belanghebbendes pleitnota voor het Hof aangevoerde stelling dat het subsidiebedrag als zodanig in geen verhouding stond met het zogenoemde beheren van ligplaatsen, kan evenmin tot cassatie leiden, aangezien deze stelling niet van belang is voor de vaststelling van de aard van de in geding zijnde prestatie.    4.	Beslissing.  
+         De Hoge Raad verwerpt het beroep.  Dit arrest is gewezen door de raadsheer Van der Linde als voorzitter, en de raadsheren Bellaart en De Moor, in tegenwoordigheid van de waarnemend griffier Van Hooff, in raadkamer van 9 september 1992.""" ;
+    dcterms:hasVersion "BNB 1992/352",
+        "FED 1992/708",
+        "FED 1992/884 met annotatie van C.J. HUMMEL",
+        "Rechtspraak.nl",
+        "V-N 1992/2869, 19 met annotatie van Kluwer",
+        "WFR 1992/1327" ;
+    dcterms:references <bwb-dl1.0:v:BWB:BWBR0002629&artikel=4&g=1992-09-09>,
+        <bwb-dl1.0:v:BWB:BWBR0002629&artikel=8&g=1992-09-09> ;
+    dcterms:subject <http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht> ;
+    dcterms:title "ECLI:NL:HR:1992:AA7057 Hoge Raad , 09-09-1992 / 28414" ;
+    dcterms:type psi:uitspraak .
+
+<bwb-dl1.0:v:BWB:BWBR0002629&artikel=4&g=1992-09-09> rdfs:label "Wetsverwijzing" ;
+    dcterms:title "Wet op de omzetbelasting 1968 4" .
+
+<bwb-dl1.0:v:BWB:BWBR0002629&artikel=8&g=1992-09-09> rdfs:label "Wetsverwijzing" ;
+    dcterms:title "Wet op de omzetbelasting 1968 8" .
+

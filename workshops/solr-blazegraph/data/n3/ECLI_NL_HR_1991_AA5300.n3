@@ -1,0 +1,27 @@
+@prefix bwb: <bwb-dl> .
+@prefix cvdr: <http://decentrale.regelgeving.overheid.nl/cvdr/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ecli: <https://e-justice.europa.eu/ecli> .
+@prefix eu: <http://publications.europa.eu/celex/> .
+@prefix psi: <http://psi.rechtspraak.nl/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tr: <http://tuchtrecht.overheid.nl/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:1991:AA5300> dcterms:abstract "-" ;
+    dcterms:creator <http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden> ;
+    dcterms:date "1991-09-25"^^xsd:date ;
+    dcterms:description """nr. 27317 25 september 1991 gewezen op het beroep in cassatie van de Staatssecreta-ris van Financiën tegen de uitspraak van het Gerechtshof te Arnhem van 9 maart 1990 betreffende na te melden aan X A.G. te Z (Zwitserland) opgelegde navorderingsaanslag in de vennootschapsbelasting.  
+         	1. Aanslag en geding voor het Hof. 	Aan belanghebbende, die aanvankelijk voor het jaar 1979 niet in de vennootschapsbelasting was aangeslagen, is een navorderingsaanslag opgelegd naar een belast-baar bedrag van f 1.700.000,--, met een verhoging van de nagevorderde belasting met 100 percent, van welke verhoging bij besluit van de Inspecteur geen kwijtschelding is verleend. 	Belanghebbende is tegen die navorderingsaanslag en tegen dat besluit in beroep gekomen bij het Hof, dat die aanslag heeft vernietigd.  
+         	2. Geding in cassatie. 	De Staatssecretaris heeft tegen 's Hofs uitspraak beroep in cassatie ingesteld. 	Belanghebbende heeft bij vertoogschrift het cassatieberoep bestreden.  
+         	3. Beoordeling van het beroep in cassatie. 	Blijkens de in het beroepschrift gegeven toelichting heeft de Staatssecretaris het cassatieberoep in het onderhavige geding uitsluitend ingesteld voor het geval in het - inmiddels bij de Hoge Raad onder nummer 26.853 aanhangige - geding uiteindelijk zou worden beslist dat de door belanghebbende in beginsel gemaakte winst niet als beloning voor de door A ver-richte werkzaamheden is uitbetaald.  	Bij zijn heden in het geding onder nummer 26.853 gewezen arrest heeft de Hoge Raad echter beslist dat bedoelde winst wel als beloning aan genoemde A is uitbetaald. 	Dit brengt mee dat de voorwaarde waaronder het onderhavige cassatieberoep is ingesteld, niet in vervulling is gegaan, zodat dit beroep moet worden verworpen. 
+         	4. Beslissing. 	De Hoge Raad verwerpt het beroep. 	Dit arrest is gewezen door de raadsheer Van der Linde als voorzitter, en de raadsheren Baardman en Bellaart, in tegenwoordigheid van de waarnemend griffier Van Hooff, in raadkamer van 25 september 1991. Van de Staatssecretaris van Financiën wordt ter zake van dit beroep een recht geheven van f 300,--""" ;
+    dcterms:hasVersion "NTFR 2000/513 met annotatie van E.J.H. Vermeulen",
+        "Rechtspraak.nl",
+        "V-N 2000/17.6 met annotatie van Kluwer" ;
+    dcterms:subject <http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht_belastingrecht> ;
+    dcterms:title "ECLI:NL:HR:1991:AA5300 Hoge Raad , 25-09-1991 / 27317" ;
+    dcterms:type psi:uitspraak .
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+
+<schema name="hogeraad" version="1.1">
+
+	<types>
+		<fieldtype name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true" />
+		<fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0" />
+		<!-- This will stop your Solr from crashing when Tika index fields that Solr don't know of. -->
+		<fieldtype name="ignored" stored="false" indexed="false" multiValued="true" class="solr.StrField" />
+
+
+		<fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
+			<analyzer type="index">
+				<tokenizer class="solr.StandardTokenizerFactory" />
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+				<filter class="solr.LowerCaseFilterFactory" />
+			</analyzer>
+			<analyzer type="query">
+				<tokenizer class="solr.StandardTokenizerFactory" />
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+				<filter class="solr.LowerCaseFilterFactory" />
+			</analyzer>
+		</fieldType>
+	</types>
+
+	<fields>
+		<field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+		<field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+		<field name="abstract" type="text_general" indexed="true" stored="true" multiValued="true" omitNorms="true" termVectors="true" />
+        <field name="content" type="text_general" indexed="true" stored="true" multiValued="true" omitNorms="true" termVectors="true" />
+	</fields>
+
+	<uniqueKey>id</uniqueKey>
+
+	<defaultSearchField>content</defaultSearchField>
+
+	<solrQueryParser defaultOperator="OR" />
+</schema>
