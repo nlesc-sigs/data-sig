@@ -4,7 +4,7 @@
 Prequisites:
 * Java 7
 
-Download and unzip [the latest version of solr](http://www.apache.org/dyn/closer.lua/lucene/solr/6.4.1).
+Download and unzip [the latest version of solr](http://www.apache.org/dyn/closer.lua/lucene/solr/).
 
 Download and unzip [blazegraph](https://www.blazegraph.com/download/). What we will need is the jar-file `blazegraph.jar`
 
