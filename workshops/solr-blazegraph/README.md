@@ -2,7 +2,7 @@
 
 ## Preperation
 Prequisites:
-* Java 7
+* Java 8
 
 Download and unzip [the latest version of solr](http://www.apache.org/dyn/closer.lua/lucene/solr/).
 
