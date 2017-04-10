@@ -12,6 +12,8 @@ Bird tracking data from https://github.com/inbo/bird-tracking/tree/master/cartod
 
 Download sample dataset from [http://lifewatch.cartodb.com/api/v2/sql?format=geojson&q=SELECT * FROM bird_tracking WHERE device_info_serial=5065 AND date_time BETWEEN '2015-03-15' AND '2015-04-15'](http://lifewatch.cartodb.com/api/v2/sql?format=geojson&q=SELECT+%2A+FROM+bird_tracking+WHERE+device_info_serial%3D5065+AND+date_time+BETWEEN+%272015-03-15%27+AND+%272015-04-15%27)
 
+The selected tracker 5065 is flown around by Roxanne a female Lesser Black-backed Gull.
+
 ## Load data into Carto
 
 1. Press `new map` button
