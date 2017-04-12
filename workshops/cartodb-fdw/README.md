@@ -4,7 +4,7 @@ Workshop about [Carto](https://carto.com) and foreign data wrappers.
 
 Host own Carto instance by following instructions at https://hub.docker.com/r/sverhoeven/cartodb/.
 
-Use Firefox as other browsers have problems with \*.localhost domain.
+If you have problems with \*.localhost domain use Firefox or a different hostname (e.g. `docker run -d -p 80:80 -e CARTO_HOST=cartodb.example.com sverhoeven/cartodb`).
 
 ## Download test data set
 
