@@ -10,5 +10,5 @@
 | 13-04-2017    | [CartoDB + PostgreSQL 2 PostgreSQL](workshops/cartodb-fdw)          | Stefan     |
 | 04-05-2017    | OntoClean                                  | Willem     |
 | 25-05-2017    | MySQL 2 PostgreSQL                         | Romulo     |
-| 15-06-2017    | Genome anotations in RDF                   | Arnold     |
-| 06-07-2017    | ?                                          | ?          |
+| 15-06-2017    | -                                          | -          |
+| 06-07-2017    | RDFizers: genome annotations use case      | Arnold     |
