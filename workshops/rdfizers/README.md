@@ -1,16 +1,17 @@
 ## RDFizers at the core of Semantic Web/Linked Data technologies
 
-**Use case**: Generate RDF graphs for (tomato) genome annotations in text files or relational databases using (semi-)automated approaches.
+**Use case**: Generate semantically interoperable genome annotations in RDF using (semi-)automated approaches.
 
 **1. Introduction**:
-* RDF graph model (serializations) & Linked Data principles
-* Genome annotations commonly stored/shared via tab-delimited file (in Generic Feature Format or GFF)
-* Controlled vocabularies, taxonomies & ontologies (GenBank Feature Table Definition, NCBI Taxonomy, SO[FA], FALDO)
-* Metadata standards & PIDs (Dublin Core/DCMI, DCAT, Cool URIs or PURLs)
+* [RDF](https://www.w3.org/RDF/) graph model (serializations) & [Linked Data principles](https://www.w3.org/DesignIssues/LinkedData.html)
+* Genome annotations commonly store and shared via tab-delimited files in Generic Feature Format ([GFF](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md))
+
+* Controlled vocabularies, taxonomies & ontologies ([GenBank Feature Table Definition](http://www.insdc.org/documents/feature-table), [NCBITaxon](https://github.com/obophenotype/ncbitaxon), [SO[FA]](http://www.sequenceontology.org/), [FALDO](https://github.com/JervenBolleman/FALDO))
+* Metadata standards & PIDs ([Dublin Core/DCMI](http://dublincore.org/documents/dcmi-terms/), [DCAT](https://www.w3.org/TR/vocab-dcat/), [Cool URIs](https://www.w3.org/TR/cooluris/) or [PURLs](https://github.com/OBOFoundry/purl.obolibrary.org/))
 * RDFication approaches:
   * text file (GFF)-> RDB -> RDF (SIGA.py)
-  * text file -> RDF (OpenRefine+RDF, Virtuoso Sponger, RML processor)
-  * RDB->RDF: Direct Mapping or R2RML (Virtuoso R2RML processor)
+  * text file -> RDF (OpenRefine+RDF, Virtuoso Sponger)
+  * [RDB->RDF](http://rdb2rdf.org/): Direct Mapping or R2RML (Virtuoso R2RML processor)
 
 **2. Install & test [SIGA.py](https://github.com/candYgene/siga)**
 
@@ -33,7 +34,7 @@ python SIGA.py rdf -c config.ini ../examples/features.db # RDB->RDF
 ls ../examples.features.ttl
 ```
 
-**3. Install & test OpenRefine+RDF**
+**3. Install & test [OpenRefine](http://openrefine.org/) with RDF extension**
 
 ```
 docker pull fusepool/openrefine
@@ -66,7 +67,7 @@ docker run -p 8890:8890 -d candygene/docker-virtuoso
   * tomato gene models: `siga/examples/features.ttl` with  `http://solgenomics.net/genome/Solanum_lycopersicum` graph URI
   * tomato QTLs: `pbg-ld/data/rdf/tomato_QTLs.ttl.gz` with `http://europepmc.org/articles` graph URI
 
-* query RDF graphs using [SPARQL](http://localhost:8890/sparql)
+* query RDF graphs via [SPARQL](http://localhost:8890/sparql) endpoint
 
 ```
 SELECT *
@@ -79,3 +80,7 @@ SELECT *
 FROM <http://europepmc.org/articles>
 WHERE { ?s ?p ?o }
 ```
+
+**References**
+
+[1] NLeSC [candYgene] (https://www.esciencecenter.nl/project/prediction-of-candidate-genes-for-traits-using-interoperable-genome-annotat) project & code base on [GitHub](https://github.com/candYgene)
