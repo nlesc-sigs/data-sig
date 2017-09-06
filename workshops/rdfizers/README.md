@@ -83,4 +83,4 @@ WHERE { ?s ?p ?o }
 
 **References**
 
-[1] NLeSC [candYgene] (https://www.esciencecenter.nl/project/prediction-of-candidate-genes-for-traits-using-interoperable-genome-annotat) project & code base on [GitHub](https://github.com/candYgene)
+[1] NLeSC [candYgene](https://www.esciencecenter.nl/project/prediction-of-candidate-genes-for-traits-using-interoperable-genome-annotat) project & code base on [GitHub](https://github.com/candYgene)
