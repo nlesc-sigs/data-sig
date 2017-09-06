@@ -11,4 +11,4 @@
 | 04-05-2017    | OntoClean                                  | Willem     |
 | 25-05-2017    | MySQL 2 PostgreSQL                         | Romulo     |
 | 15-06-2017    | -                                          | -          |
-| 06-07-2017    | RDFizers: genome annotations use case      | Arnold     |
+| 07-09-2017    | RDFizers: genome annotations use case      | Arnold     |
