@@ -1,6 +1,6 @@
 ## RDFizers at the core of Semantic Web/Linked Data technologies
 
-**Use case**: Generate semantically interoperable genome annotations in RDF using (semi-)automated approaches.
+**Use case**: Generate semantically interoperable genome annotations in RDF using (semi-)automated approaches [1].
 
 **1. Introduction**:
 * [RDF](https://www.w3.org/RDF/) graph model (serializations) & [Linked Data principles](https://www.w3.org/DesignIssues/LinkedData.html)
@@ -63,7 +63,7 @@ docker run -p 8890:8890 -d candygene/docker-virtuoso
 
 * open `http://localhost:8890/` with your favourite web browser and login via [Conductor](http://localhost:8890/conductor/) (`dba` for both account and password)
 
-* upload RDF graphs: follow _Linked_Data->_Quad Store Upload_->_File_ and _Named Graph URI_
+* upload RDF graphs: follow _Linked_Data_->_Quad Store Upload_->_File_ and _Named Graph URI_
   * tomato gene models: `siga/examples/features.ttl` with  `http://solgenomics.net/genome/Solanum_lycopersicum` graph URI
   * tomato QTLs: `pbg-ld/data/rdf/tomato_QTLs.ttl.gz` with `http://europepmc.org/articles` graph URI
 
