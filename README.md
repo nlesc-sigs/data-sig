@@ -8,7 +8,7 @@ Do you have a data handling issue? You can bring your issue to the SIG -- we can
 
  - Open an issue on github and label it `help wanted`.
  - Describe the type of issue you want to address. Make sure to include:
-    - What do is your final goal ?
+    - What is your final goal ?
     - What is the challenge ?
     - A sample of your data (if possible).
     - Which technologies you are using to store and access the data.
