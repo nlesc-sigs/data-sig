@@ -29,6 +29,7 @@ Possible things you might like to share:
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 08-03-2018    | Fair data metrics                          | Mateusz    |
 | 19-02-2018    | Fair data (practicalities)                 | -          |
 | 25-01-2018    | AutoGraph, Fair data                       | Romulo     |
 | 30-11-2017    | Deep rank                                  | Lars       |
