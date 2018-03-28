@@ -29,7 +29,7 @@ Possible things you might like to share:
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
-| 29-03-2018    | [Making commercial data FAIR](#14)         |Dafne/Laurens|
+| 29-03-2018    | [Making commercial data FAIR](https://github.com/NLeSC/data-sig/issues/14)|Dafne/Laurens|
 | 08-03-2018    | Fair data metrics                          | Mateusz    |
 | 19-02-2018    | Fair data (practicalities)                 | -          |
 | 25-01-2018    | AutoGraph, Fair data                       | Romulo     |
