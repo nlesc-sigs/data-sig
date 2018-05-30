@@ -29,6 +29,9 @@ Possible things you might like to share:
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 31-05-2018    | Data Sterwardship @ nlesc                  | Carlos     |
+| 14-05-2018    | Ideas for FAIR software                    | Jason      |
+| 19-04-2018    | [Data preservation](https://github.com/NLeSC/data-sig/issues/15) and [eWaterCycle dataset storage systems](https://github.com/NLeSC/data-sig/issues/16)|Vincent and Stefan|
 | 29-03-2018    | [Making commercial data FAIR](https://github.com/NLeSC/data-sig/issues/14)|Dafne/Laurens|
 | 08-03-2018    | Fair data metrics                          | Mateusz    |
 | 19-02-2018    | Fair data (practicalities)                 | -          |
