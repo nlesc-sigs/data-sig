@@ -25,7 +25,10 @@ Possible things you might like to share:
  - Data FAIRness
  - Data handling
 
-## Upcoming sessions
+## Notes
+Notes of SIG meetings are privately archived on the [eScience center sharepoint](https://nlesc.sharepoint.com/:o:/s/ldm/EqPz_awScLFBvlKVjDcBkoQBHlxRmngysQI9GIO0OmyWNQ?e=GUX8CC) -- these are for internal use only. 
+
+## Topics of previous sessions
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
