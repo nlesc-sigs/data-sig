@@ -32,6 +32,8 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 02-08-2018    | [Data management plans](https://github.com/NLeSC/data-sig/issues/20) | Berend |
+| 12-07-2018    | [Nano-pub](https://github.com/NLeSC/data-sig/issues/21) | Lars |
 | 31-05-2018    | Data Sterwardship @ nlesc                  | Carlos     |
 | 14-05-2018    | Ideas for FAIR software                    | Jason      |
 | 19-04-2018    | [Data preservation](https://github.com/NLeSC/data-sig/issues/15) and [eWaterCycle dataset storage systems](https://github.com/NLeSC/data-sig/issues/16)|Vincent and Stefan|
