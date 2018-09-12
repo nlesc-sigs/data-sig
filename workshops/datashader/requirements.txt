@@ -1,0 +1,5 @@
+datashader
+jupyter
+geopandas
+geoviews
+
