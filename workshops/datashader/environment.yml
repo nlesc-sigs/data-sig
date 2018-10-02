@@ -237,5 +237,8 @@ dependencies:
   - pyct=0.4.5=py_0
   - pyct-core=0.4.5=py_0
   - pyviz_comms=0.6.0=py_0
+  - parambokeh=0.2.3
+  - paramnb=2.0.4
+  - fastparquet=0.1.6
   - pip:
     - msgpack==0.5.6

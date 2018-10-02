@@ -1,1 +1,5 @@
-http://datashader.org
+.ipynb_checkpoints/
+bird_tracking.csv
+dask-worker-space/
+nyc_taxi.csv
+osm-1billion.snappy.parq/
