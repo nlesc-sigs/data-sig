@@ -2,8 +2,6 @@
 
 http://datashader.org
 
-Using same dataset as in ../cartodb-fdw
-
 ```
 conda env create -f environment.yml
 conda activate datashader
@@ -11,4 +9,16 @@ jupyter labextension install @pyviz/jupyterlab_pyviz jupyterlab_bokeh jupyter-ma
 jupyter lab
 ```
 
+# Birds
+
 Open bird-download.ipynb notebook and then bird-holo.ipynb.
+
+Uss same dataset as in ../cartodb-fdw
+
+# Open Street Map
+
+Open osm.ipynb
+
+# NY Taxi
+
+Open nytaxy.ipynb
