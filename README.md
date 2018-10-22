@@ -26,12 +26,14 @@ Possible things you might like to share:
  - Data handling
 
 ## Notes
-Notes of SIG meetings are privately archived on the [eScience center sharepoint](https://nlesc.sharepoint.com/:o:/s/ldm/EqPz_awScLFBvlKVjDcBkoQBHlxRmngysQI9GIO0OmyWNQ?e=GUX8CC) -- these are for internal use only. 
+Notes of SIG meetings are privately archived on the [eScience center sharepoint](https://nlesc.sharepoint.com/:o:/s/ldm/EqPz_awScLFBvlKVjDcBkoQBHlxRmngysQI9GIO0OmyWNQ?e=GUX8CC) -- these are for internal use only.
 
 ## Topics of previous sessions
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 04-10-2018    | [SPOT data formats](https://github.com/NLeSC/data-sig/issues/23) and [Datashader](https://github.com/NLeSC/data-sig/issues/24)                  | Faruk & Stefan |
+| 13-09-2018    | [GeoSpatial Data Handling at NLeSC](https://github.com/NLeSC/data-sig/issues/22) | Romulo |
 | 02-08-2018    | [Data management plans](https://github.com/NLeSC/data-sig/issues/20) | Berend |
 | 12-07-2018    | [Nano-pub](https://github.com/NLeSC/data-sig/issues/21) | Lars |
 | 31-05-2018    | Data Sterwardship @ nlesc                  | Carlos     |
