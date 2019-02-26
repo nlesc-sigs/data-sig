@@ -32,6 +32,10 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 07-02-2019    | [eEcolidar](https://github.com/NLeSC/data-sig/issues/36) & internal organization | Meiert & all |
+| 17-01-2019    | [Databases for text](https://github.com/NLeSC/data-sig/issues/32), [Database requirements for time series](https://github.com/NLeSC/data-sig/issues/35) & internal organization | Janneke, Vincent & all |
+| 06-12-2018    | [FAIR workflows](https://github.com/NLeSC/data-sig/issues/33) | Lars & Roel |
+| 15-11-2018    | [Data2Paper](https://github.com/NLeSC/data-sig/issues/29) & [Data formats for SPOT](https://github.com/NLeSC/data-sig/issues/23) | Jason & Faruk |
 | 25-10-2018    | [Stream processing](https://github.com/NLeSC/data-sig/issues/26) and [Graph databases](https://github.com/NLeSC/data-sig/issues/28) | Romulo & Faruk |
 | 04-10-2018    | [SPOT data formats](https://github.com/NLeSC/data-sig/issues/23) and [Datashader](https://github.com/NLeSC/data-sig/issues/24) | Faruk & Stefan |
 | 13-09-2018    | [GeoSpatial Data Handling at NLeSC](https://github.com/NLeSC/data-sig/issues/22) | Romulo |
