@@ -32,6 +32,7 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 21-03-2019    | Preparation for PI day and [Dask on DAS](https://github.com/NLeSC/data-sig/issues/38) | Berend |
 | 07-02-2019    | [eEcolidar](https://github.com/NLeSC/data-sig/issues/36) & internal organization | Meiert & all |
 | 17-01-2019    | [Databases for text](https://github.com/NLeSC/data-sig/issues/32), [Database requirements for time series](https://github.com/NLeSC/data-sig/issues/35) & internal organization | Janneke, Vincent & all |
 | 06-12-2018    | [FAIR workflows](https://github.com/NLeSC/data-sig/issues/33) | Lars & Roel |
