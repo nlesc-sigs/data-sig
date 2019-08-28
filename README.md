@@ -32,6 +32,7 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 15-08-2019 | [era5cli: a command line interface to Copernicus Climate Data Store](https://github.com/eWaterCycle/era5cli.git) | Sarah |
 | 25-07-2019 | [Aggregation of words using a database](https://github.com/NLeSC/data-sig/issues/32) & [Data licensing for Bridging the Gap](https://github.com/NLeSC/data-sig/issues/43) | Janneke  |
 | 13-06-2019	| [Sensitive data handling](https://github.com/NLeSC/data-sig/issues/44) (with [report](./documents/nlesc-privacy.doc))  | Erik   |
 | 11-04-2019	| [FAIR Data Point](https://github.com/NLeSC/data-sig/issues/41) app & metadata profile     | Arnold |
