@@ -10,9 +10,9 @@ If you have problems with \*.localhost domain use Firefox or a different hostnam
 
 Bird tracking data from https://github.com/inbo/bird-tracking/tree/master/cartodb
 
-Download sample dataset from [http://lifewatch.cartodb.com/api/v2/sql?format=geojson&q=SELECT * FROM bird_tracking WHERE device_info_serial=5065 AND date_time BETWEEN '2015-03-15' AND '2015-04-15'](http://lifewatch.cartodb.com/api/v2/sql?format=geojson&q=SELECT+%2A+FROM+bird_tracking+WHERE+device_info_serial%3D5065+AND+date_time+BETWEEN+%272015-03-15%27+AND+%272015-04-15%27)
+Download sample dataset from [http://lifewatch.cartodb.com/api/v2/sql?format=geojson&q=SELECT * FROM bird_tracking WHERE device_info_serial=853 AND date_time BETWEEN '2015-03-15' AND '2015-04-15'](http://lifewatch.cartodb.com/api/v2/sql?format=geojson&q=SELECT+%2A+FROM+bird_tracking+WHERE+device_info_serial%3D853+AND+date_time+BETWEEN+%272015-03-15%27+AND+%272015-04-15%27)
 
-The selected tracker 5065 is flown around by Roxanne a female Lesser Black-backed Gull.
+The selected tracker 853 is flown around by Michelle a Lesser Black-backed Gull.
 
 ## Load data into Carto
 
