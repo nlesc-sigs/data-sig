@@ -98,8 +98,8 @@ SELECT
   ST_Transform(the_geom, 3857) AS the_geom_webmercator
 FROM (
   SELECT
-	   bird_name, 
-  	 date(date_time) as date,
+    bird_name,
+    date(date_time) as date,
     count(*) as fixes,
     ST_MakeLine(the_geom ORDER BY date_time) AS the_geom,
     max(altitude) as maxalt, round(avg(altitude)::numeric, 2) as avgalt, min(altitude) as minalt
