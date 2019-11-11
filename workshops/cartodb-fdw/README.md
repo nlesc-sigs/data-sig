@@ -17,7 +17,8 @@ Download sample dataset from [http://lifewatch.cartodb.com/api/v2/sql?format=geo
 1. Press `new map` button
 2. Click `connect dataset` link
 3. Upload `cartodb-query.geojson` file
-4. Press `create map` button
+4. Change
+5. Press `create map` button
 
 ## Customize map
 
@@ -64,6 +65,13 @@ Uses [Torque](https://github.com/CartoDB/torque) layer cube format.
 
 Example https://jshamoun.carto.com/viz/8796d368-79b8-11e5-a233-0e3ff518bd15/public_map
 
+#### Publish
+
+1. Click on private to switch it to public.
+2. Click on publish
+3. Click on publish again
+4. Goto publish tab to get a link or embed snippet.
+
 #### Analysis
 
 1. Select analysis menu item
@@ -73,13 +81,6 @@ Example https://jshamoun.carto.com/viz/8796d368-79b8-11e5-a233-0e3ff518bd15/publ
 
 5. Select single bird
 6. Fill color by quads
-
-#### Publish
-
-1. Click on private to switch it to public.
-2. Click on publish
-3. Click on publish again
-4. Goto publish tab to get a link or embed snippet.
 
 ## Query data
 
