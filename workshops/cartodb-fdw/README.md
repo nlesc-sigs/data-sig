@@ -75,12 +75,12 @@ Example https://jshamoun.carto.com/viz/8796d368-79b8-11e5-a233-0e3ff518bd15/publ
 #### Analysis
 
 1. Select analysis menu item
+2. Select single bird
 2. Select detect outliers and clusters
 3. Select altitude as target column
 4. Click apply
 
-5. Select single bird
-6. Fill color by quads
+5. Fill color by quads
 
 ## Query data
 
