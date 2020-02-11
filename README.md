@@ -32,7 +32,9 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
-| 27-01-2020 | [Graphql on AWS and AWS](https://github.com/NLeSC/data-sig/issues/49) | Faruk & Stefan |
+| 23-03-2020 | SURF Data services | Hans van Piggelen |
+| 24-02-2020 | | |
+| 27-01-2020 | [GraphQL on AWS and AWS](https://github.com/NLeSC/data-sig/issues/49) | Faruk & Stefan |
 | 26-09-2019 | [RECEIPT DMP](https://github.com/NLeSC/data-sig/issues/47) | Maarten |
 | 15-08-2019 | [era5cli: a command line interface to Copernicus Climate Data Store](https://github.com/eWaterCycle/era5cli.git) | Sarah |
 | 25-07-2019 | [Aggregation of words using a database](https://github.com/NLeSC/data-sig/issues/32) & [Data licensing for Bridging the Gap](https://github.com/NLeSC/data-sig/issues/43) | Janneke  |
