@@ -32,6 +32,7 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 18-05-2020 | [Using grlc on YeSA project](https://github.com/NLeSC/data-sig/issues/50) | Arnold   |
 | 23-03-2020 | SURF Data services | Hans van Piggelen |
 | 24-02-2020 | | |
 | 27-01-2020 | [GraphQL on AWS and AWS](https://github.com/NLeSC/data-sig/issues/49) | Faruk & Stefan |
