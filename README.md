@@ -32,7 +32,9 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
-| 07-09-2020 | Experiences with Data Management Plans | |
+| 30-11-2020 | 23 things research data | Mateusz |
+| 02-11-2020 |  |  |
+| 07-09-2020 | Experiences with Data Management Plans | Lars & Carlos |
 | 18-05-2020 | [Using grlc on YeSA project](https://github.com/NLeSC/data-sig/issues/50) | Arnold   |
 | 23-03-2020 | SURF Data services | Hans van Piggelen |
 | 24-02-2020 | | |
