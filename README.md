@@ -33,7 +33,7 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
 | 30-11-2020 | 23 things research data | Mateusz |
-| 02-11-2020 |  |  |
+| 02-11-2020 | Handling sensitive patient data | Arnold |
 | 28-09-2020 | Lunch talks: [Jisk on GDPR](https://web.microsoftstream.com/video/91275737-aa48-43a1-8071-4f226ad12a19) & [Jason on SSP & DMP](https://web.microsoftstream.com/video/825bf810-14c8-4071-9bee-4d003088388b) | Jisk & Jason |
 | 07-09-2020 | Experiences with Data Management Plans | Lars & Carlos |
 | 18-05-2020 | [Using grlc on YeSA project](https://github.com/NLeSC/data-sig/issues/50) | Arnold   |
