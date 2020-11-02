@@ -33,7 +33,7 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
 | 30-11-2020 | 23 things research data | Mateusz |
-| 02-11-2020 | Handling sensitive patient data | Arnold |
+| 02-11-2020 | [Handling sensitive patient data](https://web.microsoftstream.com/video/598b7537-0cb6-495c-bc14-4fb021e0708d) ([#53](https://github.com/nlesc-sigs/data-sig/issues/53)) | Arnold |
 | 28-09-2020 | Lunch talks: [Jisk on GDPR](https://web.microsoftstream.com/video/91275737-aa48-43a1-8071-4f226ad12a19) & [Jason on SSP & DMP](https://web.microsoftstream.com/video/825bf810-14c8-4071-9bee-4d003088388b) | Jisk & Jason |
 | 07-09-2020 | Experiences with Data Management Plans | Lars & Carlos |
 | 18-05-2020 | [Using grlc on YeSA project](https://github.com/NLeSC/data-sig/issues/50) | Arnold   |
@@ -72,3 +72,4 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 | 23-03-2017    | [Full-text search with Blazegraph](workshops/solr-blazegraph) | Dafne      |
 | 02-03-2017    | SQLite3 UDFs: in [C](workshops/sqlite3_udfs/c/) and [Python](workshops/sqlite3_udfs/python)| Romulo/Arnold|
 | 09-02-2017    | [grlc](./workshops/grlc.md)                | Carlos     |
+|<img width=110/>| | |
