@@ -2,6 +2,8 @@
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
+| 28-11-2022 | [Point Clouds](https://github.com/nlesc-sigs/data-sig/issues/63) | Thijs |
+| 28-09-2021 | [Nanopublications](https://github.com/nlesc-sigs/data-sig/issues/55) | Stefan |
 | 22-03-2021 | [Time-series data generator](https://github.com/nlesc-sigs/data-sig/issues/57) | Erik |
 | 22-02-2021 | [Nanopublications](https://github.com/nlesc-sigs/data-sig/issues/55) | Robin |
 | 30-11-2020 | [23 things research data](https://github.com/nlesc-sigs/data-sig/issues/52) and [Mapping OWL -> YAML -> DDL](https://github.com/nlesc-sigs/data-sig/issues/54) | Mateusz and Pablo L. |
