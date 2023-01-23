@@ -30,6 +30,7 @@ Notes of SIG meetings are privately archived on the [eScience center sharepoint]
 
 ## Data SIG meetings
 
+- [2023](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-23.md)
 - [2020-22](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-20-22.md)
 - [2019](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2019.md)
 - [2018](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2018.md)
