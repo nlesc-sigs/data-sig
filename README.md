@@ -1,5 +1,9 @@
 #  Data Special Interest Group
 
+## Propose a topic
+
+We welcome topics to be discussed during the SIG. To propose a topic, open an issue with a brief description of the topic and label it `topic`.
+
 ## Bring your own data challenges
 
 Do you have a data handling issue? You can bring your issue to the SIG -- we can look at the issue together and do our best to help you find the most suitable solution.
@@ -17,16 +21,13 @@ We will discuss your issue during the next SIG meeting.
 
 ## Share your data solutions
 
-Did you do something really cool with your data ? Share your experiences with the SIG! Contact Arnold or Carlos and they will add you to the list of upcoming sessions.
+Did you do something really cool with your data ? Share your experiences with the SIG! Open an issue and propose it as a topic and label it `topic`. 
 
 Possible things you might like to share:
  - Tools & Methodologies for storage
  - Tools & Methodologies for access
  - Data FAIRness
  - Data handling
-
-## Notes
-Notes of SIG meetings are privately archived on the [eScience center sharepoint](https://nlesc.sharepoint.com/:o:/s/ldm/EqPz_awScLFBvlKVjDcBkoQBHlxRmngysQI9GIO0OmyWNQ?e=GUX8CC) -- these are for internal use only.
 
 ## Data SIG meetings
 
