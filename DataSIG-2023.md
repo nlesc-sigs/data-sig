@@ -7,4 +7,5 @@
 | 23-03-2023 | Semantic Web, Linked Data intro | Kody |
 | 20-04-2023 | Data wrangling | Vincent Emonet |
 | 18-05-2023 | -ascension day- | - |
-| 15-06-2023 | ... | Reggie? |
+| 16-11-2023 | Blockchain workflows | Reggie |
+| 07-12-2023 | Via Apia | Maurice and Jesus |
