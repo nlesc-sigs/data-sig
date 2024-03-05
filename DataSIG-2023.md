@@ -8,4 +8,4 @@
 | 20-04-2023 | Data wrangling | Vincent Emonet |
 | 18-05-2023 | -ascension day- | - |
 | 16-11-2023 | Blockchain workflows | Reggie |
-| 07-12-2023 | Via Apia | Maurice and Jesus |
+| 07-12-2023 | [Revisited Via Appia](https://revisited-via-appia.nl/) | Maurice & Jesus |
