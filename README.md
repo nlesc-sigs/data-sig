@@ -31,6 +31,7 @@ Possible things you might like to share:
 
 ## Data SIG meetings
 
+- [2024](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2024.md)
 - [2023](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2023.md)
 - [2020-22](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-20-22.md)
 - [2019](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2019.md)
