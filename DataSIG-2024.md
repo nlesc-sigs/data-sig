@@ -7,7 +7,7 @@
 | 14/03/2024 | [CWI Computational Imaging group](https://www.cwi.nl/en/groups/computational-imaging/) meets eScience Center | [Tristan van Leeuwen](https://www.cwi.nl/nl/people/tristan-van-leeuwen/) & [Francien Bossema](https://www.esciencecenter.nl/fellowship-programme/francien-bossema/)|
 | 11/04/2024 | Discussing outcome survey about data handling at the eScience Center | Reggie & Maurice | 
 | 06/06/2024 | [Data Science for Cancer treatment](https://www.hartwigmedicalfoundation.nl/)  | [Stef van Lieshout](https://github.com/stefvanlieshout) |
-| 29/08/2024 | | |
+| 29/08/2024 | Summerbreak | |
 | 26/09/2024 | | |
 | 24/10/2024 | | |
 | 21/11/2024 | | |
