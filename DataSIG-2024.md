@@ -10,5 +10,5 @@
 | 29/08/2024 | Summerbreak | |
 | 03/10/2024 | Geovisualisation & 30 day map challenge | [prof. dr. Jaap Boter](https://research.vu.nl/en/persons/jaap-boter) |
 | 31/10/2024 | | |
-| 28/11/2024 | [Handling 3D data](https://www.youtube.com/watch?v=wBhASS8iz1Q) | [dr. Sanne Frequin](https://www.sannefrequin.nl/) |
+| 28/11/2024 | [Handling 3D data- Brainstorm session](https://www.youtube.com/watch?v=wBhASS8iz1Q) | [dr. Sanne Frequin](https://www.sannefrequin.nl/) |
 
