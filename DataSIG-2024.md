@@ -8,7 +8,7 @@
 | 11/04/2024 | Discussing outcome survey about data handling at the eScience Center | Reggie & Maurice | 
 | 06/06/2024 | [Data Science for Cancer treatment](https://www.hartwigmedicalfoundation.nl/)  | [Stef van Lieshout](https://github.com/stefvanlieshout) |
 | 29/08/2024 | Summerbreak | |
-| 26/09/2024 | | |
-| 24/10/2024 | | |
-| 21/11/2024 | | |
-| 19/12/2024 | | |
+| 03/10/2024 | Geovisualisation & 30 day map challenge | [prof. dr. Jaap Boter](https://research.vu.nl/en/persons/jaap-boter) |
+| 31/10/2024 | | |
+| 28/11/2024 | | |
+
