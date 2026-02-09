@@ -1,4 +1,4 @@
-#  Data Special Interest Group
+# Efficient Data Handling (EDH) Special Interest Group
 
 ## Propose a topic
 
