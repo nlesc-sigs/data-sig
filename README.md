@@ -49,7 +49,7 @@ Possible things you might like to share:
 
 | Date          | Topic                                      | Presenter  |
 | -------------:|:------------------------------------------ |:---------- |
-| 2026-03-12 | | |
+| 2026-03-12 | DuckDB as glue | Suvayu |
 | 2026-04-09 | Cloud native data formats| Francesco |
 | 2026-05-07 | | |
 | 2026-06-04 | | |
