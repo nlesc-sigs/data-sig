@@ -47,7 +47,19 @@ Possible things you might like to share:
 
 ## Data SIG meetings
 
-- [2026](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2026.md)
+| Date          | Topic                                      | Presenter  |
+| -------------:|:------------------------------------------ |:---------- |
+| 2026-03-12 | | |
+| 2026-04-09 | | |
+| 2026-05-07 | | |
+| 2026-06-04 | | |
+| 2026-07-02 | | |
+| 2026-09-24 | | |
+| 2026-11-19 | | |
+| 2026-12-17 | | |
+
+Past meetings:
+
 - [2024](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2024.md)
 - [2023](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2023.md)
 - [2020-22](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-20-22.md)
