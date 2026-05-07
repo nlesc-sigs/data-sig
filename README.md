@@ -58,6 +58,8 @@ Possible things you might like to share:
 | 2026-11-19 | | |
 | 2026-12-17 | | |
 
+Some meetings are recorded, the recordings can be found in the meeting details in the Shared calendar in Outlook.
+
 Past meetings:
 
 - [2024](https://github.com/nlesc-sigs/data-sig/blob/master/DataSIG-2024.md)
