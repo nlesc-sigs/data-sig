@@ -54,7 +54,7 @@ Possible things you might like to share:
 | 2026-05-07 | pooch & rocrate | Bouwe & Stefan  |
 | 2026-06-04 | | |
 | 2026-07-02 | CKAN | Ole |
-| 2026-09-24 | | |
+| 2026-09-24 | Metabase/dashboard | Dusan (+ Stefan) |
 | 2026-11-19 | | |
 | 2026-12-17 | | |
 
